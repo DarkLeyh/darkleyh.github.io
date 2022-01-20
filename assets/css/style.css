@@ -1,0 +1,1104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background: #dddada;
+    text-align: center;
+}
+
+header {
+    background-color: #262626;
+}
+  
+li {
+    list-style: none;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+}
+  
+.container {
+    width:1600px;
+    margin:auto;
+}
+  
+.subcontainer {
+  /* adjust this width to your taste   */
+    width: 85%;
+    margin:auto;
+}
+  
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-branding {
+    font-size: 2rem;
+}
+  
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+  
+.nav-link {
+    transition: 0.3s ease-out;
+}
+  
+.nav-link:hover {
+    color: dodgerblue;
+}
+  
+.burger {
+    display: none;
+    cursor: pointer;
+}
+  
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+@media(max-width:320px){
+    .container-content-about {
+        height: 470px;
+    }
+
+    .container-title {
+        padding-top: 20px;
+    }
+
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 20px 0px 30px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 20px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 25px 0px 25px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 50px 0px 50px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 490px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill-title {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 20px 0px 20px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 15px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 100px 0px 100px 0px;
+    }
+}
+
+@media(min-width:321px) and (max-width: 375px){
+    .container-content-about {
+        height: 470px;
+    }
+
+    .container-title {
+        padding-top: 20px;
+    }
+
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 20px 0px 30px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 20px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 25px 0px 25px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 50px 0px 50px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 350px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 380px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill-title {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 20px 0px 20px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 15px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 100px 0px 100px 0px;
+    }
+}
+
+@media(min-width:376px) and (max-width: 425px){
+    .container-content-about {
+        height: 470px;
+    }
+
+    .container-title {
+        padding-top: 20px;
+    }
+
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 25px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 25px 0px 25px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 50px 0px 50px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 25px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 420px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill-title {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 30px 0px 30px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 25px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 100px 0px 100px 0px;
+    }
+}
+
+@media(min-width:426px) and (max-width: 768px){
+    .container-content-about {
+        height: 470px;
+    }
+
+    .container-title {
+        padding-top: 20px;
+    }
+
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 25px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 25px 0px 25px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 50px 0px 50px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 30px 0px 30px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 20px 10px 20px;
+        border-radius: 5px;
+        padding: 35px 0px 25px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 50px 0px 50px;
+        border-radius: 5px;
+        height: 420px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 30px 10px 30px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 30px 10px 30px;
+        border-radius: 5px;
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill-title {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 30px 0px 30px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 25px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 20px 0px 20px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 200px 0px 200px 0px;
+    }
+}
+
+@media(max-width:1024px){
+    .burger{
+        display: block;
+    }
+  
+    .burger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .burger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+  
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+  
+    .nav-item{
+        margin: 20px 0;
+    }
+  
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 1024px) {
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 25px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 200px 0px 200px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 350px 0px 350px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 150px 0px 150px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 150px 0px 150px;
+        border-radius: 5px;
+        height: 420px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .skill-title {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 100px 0px 100px;
+        padding: 50px 15px 50px 15px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 50px 0px 50px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 25px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 100px 0px 100px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 200px 0px 200px 0px;
+        font-size: 30px;
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1192px) {
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 469px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title1 {
+        padding-bottom: 25px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 200px 0px 200px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 350px 0px 350px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 150px 0px 150px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 150px 0px 150px;
+        border-radius: 5px;
+        height: 420px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .skill-title {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 100px 0px 100px;
+        padding: 50px 15px 50px 15px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 50px 0px 50px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 25px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 100px 0px 100px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 200px 0px 200px 0px;
+        font-size: 30px;
+    }
+}
+
+
+@media(min-width: 1193px) and (max-width: 1440px) {
+    .aboutMe {
+        background: #ee75ca;
+    }
+
+    .encabezado {
+        background: #ffe4e1;
+        text-align: center;
+        color: #232323;
+        height: 555px;
+    }
+
+    .encabezado .padding {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .h1 {
+        font-size: 30px;
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title1 {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .parraf {
+        background: #232323;
+        margin: 0px 450px 0px 450px;
+        padding: 30px 0px 30px 0px;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .iconSocials {
+        background: #232323;
+        text-align: center;
+        margin: 0px 550px 0px 550px;
+        padding: 20px 0px 15px 0px;
+        border-radius: 10px;
+    }
+
+    .c1-a1 {
+        background: #232323;
+        margin: 0px 350px 0px 350px;
+        border-radius: 5px;
+        height: 400px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a1 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a1 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .container-content-about .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .container-content-about {
+        height: 555px;
+    }
+
+    .skill {
+        background: #d340a7;
+    }
+
+    .c1-a2 {
+        background: #232323;
+        margin: 0px 350px 0px 350px;
+        border-radius: 5px;
+        height: 500px;
+        padding-bottom: 20px;
+    }
+
+    .c2-a2 {
+        background: #ffa600ee;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .c3-a2 {
+        background: #1043a1;
+        margin: 10px 100px 10px 100px;
+        border-radius: 5px;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .skill-title {
+        padding: 35px 0px 35px 0px;
+    }
+
+    .skill .container-content-skills .padding {
+        padding: 25px 0px 25px 0px;
+    }
+
+    .c1-a3 {
+        background: #232323;
+        margin: 0px 350px 0px 350px;
+        padding: 50px 15px 50px 15px;
+        border-radius: 5px;
+    }
+
+    .title-port {
+        padding: 50px 0px 50px 0px;
+        font-size: 20px;
+    }
+
+    .portafolio {
+        background: #a11477;
+    }
+
+    .c4-a3 {
+        padding-bottom: 25px;
+    }
+
+    .c5-a3 {
+        background: #232323;
+        margin: 0px 350px 0px 350px;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #000;
+        padding: 100px 0px 100px 0px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
